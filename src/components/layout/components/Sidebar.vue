@@ -10,7 +10,15 @@
         <li class="sidebar__link">
           <router-link :to="{name: 'blog.create'}">Add post</router-link>
         </li>
+
         <li class="sidebar__link"><a href="https://webdevetc.com/">Web dev etc blog</a></li>
+        <li class="sidebar__link">
+          <a href="https://github.com/WebDevEtc/WebDevEtc-Vue3-Example-Starter">Vue 3 example project on github</a>
+        </li>
+        <li class="sidebar__link">
+          <a href="https://webdevetc.com/blog/vue-3-guide-with-example-code-snippets/">Vue 3 guide</a>
+        </li>
+
       </ul>
     </nav>
 

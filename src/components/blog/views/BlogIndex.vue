@@ -1,5 +1,12 @@
 <template>
   <div class="blog-index">
+
+    <h2>Vue 3 example starter boilerplate</h2>
+
+    <p>This is the live version of <b>web dev etc's Vue 3 example boilerplate project</b>.</p>
+
+    <p><a href="https://github.com/WebDevEtc/WebDevEtc-Vue3-Example-Starter">Vue 3 example project on github</a> or <a href="https://webdevetc.com/blog/vue-3-guide-with-example-code-snippets/">view my guide on setting up Vue 3 (including Vue Router, Vuex, Sass, etc)</a></p>
+
     <div
         v-for="post in posts"
         :key="post.slug">
